@@ -6,7 +6,7 @@ export default function AuthLayout({ children }: Layout) {
   return (
     <>
       <Sidebar />
-      {children}
+      <main className='ms-20 h-fit min-h-screen p-7'>{children}</main>
     </>
   )
 }

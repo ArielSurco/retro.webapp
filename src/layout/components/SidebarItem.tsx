@@ -20,7 +20,7 @@ export const SidebarItem = ({ icon: IconComponent, ...props }: SidebarItemProps)
 
   return (
     <Link
-      className='flex h-14 w-14 items-center justify-center rounded-[10px] bg-transparent text-current hover:bg-[#f7fafd] hover:text-[#414ba4]'
+      className='flex h-14 w-14 items-center justify-center rounded-[10px] bg-transparent text-current transition-all duration-300 hover:bg-[#f7fafd] hover:text-[#414ba4]'
       {...props}
     >
       <IconComponent

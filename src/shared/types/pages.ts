@@ -6,3 +6,6 @@ export interface WithChildren {
 
 export interface Page extends WithChildren {}
 export interface Layout extends WithChildren {}
+export interface Provider<T = void> extends WithChildren {
+  value: T
+}

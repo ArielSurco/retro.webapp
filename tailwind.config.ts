@@ -6,6 +6,7 @@ const config: Config = {
     './src/shared/**/*.{js,ts,jsx,tsx,mdx}',
     './src/auth/**/*.{js,ts,jsx,tsx,mdx}',
     './src/layout/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/boards/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
